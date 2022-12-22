@@ -7,60 +7,181 @@
 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
 crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    
     <title>Document</title>
 </head>
-<main class="c-main">
-    <section class="c-section c-section--1">
-        <nav>
-            <div class="nav-content">
-              <div class="logo">
-                <a href="#">Webster</a>
-              </div>
-        
-              <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Home</a></li>
-              </ul>
-            </div>
-          </nav>
-    </section>
-  
-    <section class="c-section c-section--2">
-      <p class="c-section--title">Section 2</p>
-    </section>
-  
-    <section class="c-section c-section--3">
-      <p class="c-section--title">Section 3</p>
-    </section>
-  </main>
 <body>
-   
+<main class="c-main">
 
-        <div class="container">
-              <div class="row mt-70">
-            <img class="col-7 mt-5" src="/src/img/earth.jpg"/>
-            
-             <div class="col-5 d-flex justify-content-center align-items-center color-blue" >
-                <h1>Discover The World</h1>
-               
-             </div>
-            
-            </div>
-       
-            </div>
-           
+  <section class="c-section c-section--1" id="home">
+        
+      <header>
+        <nav>
+          <div class="row">
+              <div class="col-5 logo">
+                <img class="paper_plane" src="/src/img/paper plane.jpg"/>
+              <a href="#">Flyby</a>
+              </div>
+              <ul class="col-5 nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dest">Destinations</a></li>
+                <li><a href="#about_information">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+         
+    <div class="col-10 main">
+          <img class="plane" src="img/plane.jpg"/>
+          <h1>Discover Your World<br>
+              Choose Your Color
+          </h1>
+    </div>
+  </section>
+
+ <section class="c-section c-section" id="dest">
+   <div class="container">
+      <div
+            class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1604503245604-930a6f3513ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');"
+        >
+          <h3>Greece, Santorini</h3>
+      </div>
+      <div
+            class="slide"
+            style="
+                background-image: url('https://images.unsplash.com/photo-1542021837673-16634fbd380f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+              "
+        >
+          <h3>Brasil</h3>
+      </div>
+      <div
+            class="slide"
+            style="
+                background-image: url('https://images.unsplash.com/photo-1609959155450-6957a2398005?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=842&q=80');
+              "
+        >
+          <h3>UAE, Dubai</h3>
+      </div>
+      <div
+            class="slide"
+            style="
+                background-image: url('https://images.unsplash.com/photo-1605537964076-3cb0ea2ff329?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80');
+              "
+        >
+          <h3>Philippines, Palawan</h3>
+      </div>
+      <div
+            class="slide"
+            style="
+                background-image: url('https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80');
+              "
+        >
+          <h3>Maldives</h3>
+      </div>
+      <div
+        class="slide"
+        style="
+            background-image: url('https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+          "
+    >
+      <h3>France, Paris</h3>
+      </div>
+      <div
+    class="slide"
+    style="
+        background-image: url('https://images.unsplash.com/photo-1602088113235-229c19758e9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80');"
+      
+    >
+       <h3>Mexico, Cancun</h3>
+     </div>
+  </div>    
+</section>
+    
+  
+          
+  <section class="c-section c-section--3" id="about_information">
+    <div class="container_bottom">
+      <div class="row">
+        <div class="about_info">
+          <div class=" col-5  text">
+               <h4>About</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Soluta quod quisquam incidunt aspernatur? In ex libero dicta 
+                ab veritatis molestias necessitatibus ipsam doloremque quibusdam,
+                corrupti optio perferendis exercitationem natus rerum!</p>
+           </div>
+        
+             <img class="col-5 airport" src="img/Business-traveller.jpg">
         </div>
-    </div>   
-<!--       
-       <h1>Enjoy Flight
-        With <span>Travelfy</span>
-       </h1> -->
-    </div> -->
+        
+      </div>
+      
+
+    <footer>
+      <div class="footer-in">
+       <div class="row_2">
+         <ul class="col-4 nav_links_f">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#dest">Destination</a></li>
+            <li><a href="#about_information">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-4 social_media id="contact">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+
+         <div class=" col-4 subscribe">
+          
+          <p>Subscribe for our newsletter</p>
+          <form>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off">
+            <button type="button">Subscribe</button>
+          </form>
+        </div>
+        </div>
+      </footer>
+   
+     
+      <div class="cloud">
+         <!-- <div class="light"></div> -->
+        <img  src="/src/img/whitePlane.png"/>
+      </div>
+    </div>
+   
+  </section>
+</main>
+
+
+<script>
+   function slidesPlugin(activeSlide = 0) {
+
+const slides = document.querySelectorAll('.slide')
+
+slides[activeSlide].classList.add('active')
+
+for (const slide of slides) {
+    slide.addEventListener('click', () => {
+    removeActiveClasses()
+
+   slide.classList.add('active')
+   })
+}
+
+function removeActiveClasses() {
+    slides.forEach((slide) => {
+    slide.classList.remove('active')
+    })
+}
+}
+slidesPlugin()
+</script>
 </body>
 </html>
