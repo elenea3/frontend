@@ -56,7 +56,7 @@
     width:100vw;
     z-index: 999;
     background-color:white;
-   
+    
     }
   
   .nav-container{
@@ -83,6 +83,7 @@
     font-family: sans-serif;
     padding-left: 7px;
     
+
   }
  .nav-links {
     display: flex;
@@ -158,56 +159,26 @@
     
  }
  
- .btn-right{
-  position: absolute;
-  top:50%;
-  right:0%;
-  width: 50px;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-
- }
- .btn-left{
-  position: absolute;
-  top:50%;
-  left:0%;
-  width: 50px;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-
- }  
- 
- 
- 
  h1{
   font-size: 3em;
   font-family: serif;
   line-height: 150%;
   color:white;
-  cursor: pointer; 
-  /* position: absolute; */
-  
+  cursor: pointer;  
 }
 body {
   background: skyblue;
 }
 
-
-
 .cloud {
  position: absolute;
  top: 0px;
  right: -500px;
- opacity: .8;
+ opacity: 1;
  animation: cloud 10s linear 0s infinite reverse;
- /* z-index: 99; */
+ 
 }
-@keyframes light {
- 0% {opacity: 0;}
- 100% {opacity: 1;}
-}
+
 @keyframes cloud {
  from {right:-500px;}
  to {right: 102%;}
@@ -267,7 +238,9 @@ body {
 }
 #about_information{
   padding: 0;
+  
 }
+
 .footer-in{
   width: 100%;
   display:flex;
@@ -275,11 +248,12 @@ body {
   background-color:white;
   align-items:center;
   padding:20px;
+  padding-left:6%;
   margin:0px;
   flex-wrap: wrap;
   }
 footer{
-  display:block;
+  flex:0 0 auto;
   width: 100%;
   }
 .social_media{
@@ -296,6 +270,7 @@ footer{
   margin:0 auto;
   align-items: center;
   width: 100%; 
+  margin-top:10%;
 }
  .about_info{
   display: flex;
@@ -321,7 +296,7 @@ footer{
 
 .subscribe form input {
   padding: 0.75rem;
-  border-radius: 0.25rem;
+  border-radius:20px;
   outline: none;
   border: 1px solid #94949c;
   background: transparent;
@@ -331,7 +306,7 @@ footer{
 
 .subscribe form button {
   padding: 0.75rem;
-  border-radius: 0.25rem;
+  border-radius:20px;
   outline: none;
   margin-left: 0.5rem;
   border: 1px solid skyblue;
